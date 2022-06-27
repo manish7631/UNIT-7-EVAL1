@@ -5,7 +5,7 @@ const ShoeCard = ({ shoes }) => {
 
     const counter = useSelector(store => store.counter);
     const dispatch = useDispatch()
-    const handleIncrement = () => {
+    const handleIncrement = (g) => {
         dispatch(incrementCounter(1));
     };
     const handleDecrement = () => {
